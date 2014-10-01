@@ -30,7 +30,7 @@ public class EvaluateNERModels {
         EvaluateNERModels toi = new EvaluateNERModels();
 		Charset charset = Charset.forName("UTF-8");
 		
-		ObjectStream<String> lineStream_person = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_entities_person.txt"), charset);
+		ObjectStream<String> lineStream_person = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_data/twitter_entities_person.txt"), charset);
 		ObjectStream<NameSample> sampleStream_person = new NameSampleDataStream(lineStream_person);
         InputStream modelIn_person = new FileInputStream("models/ner/en-ner-person.bin");
 		TokenNameFinderModel model_person = new TokenNameFinderModel(modelIn_person);
@@ -39,7 +39,7 @@ public class EvaluateNERModels {
 		FMeasure result_person = evaluator_person.getFMeasure();
 		System.out.println("Person entity evaluation: \n"+result_person.toString()+"\n");
         
-		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_entities_location.txt"), charset);
+		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_data/twitter_entities_location.txt"), charset);
 		ObjectStream<NameSample> sampleStream_loc = new NameSampleDataStream(lineStream_loc);
         InputStream modelIn_loc = new FileInputStream("models/ner/en-ner-location.bin");
 		TokenNameFinderModel model_loc = new TokenNameFinderModel(modelIn_loc);
@@ -48,7 +48,7 @@ public class EvaluateNERModels {
 		FMeasure result_loc = evaluator_loc.getFMeasure();
 		System.out.println("Location entity evaluation: \n"+result_loc.toString()+"\n");
         
-		ObjectStream<String> lineStream_time = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_entities_time.txt"), charset);
+		/*ObjectStream<String> lineStream_time = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_entities_time.txt"), charset);
 		ObjectStream<NameSample> sampleStream_time = new NameSampleDataStream(lineStream_time);
         InputStream modelIn_time = new FileInputStream("models/ner/en-ner-time.bin");
 		TokenNameFinderModel model_time = new TokenNameFinderModel(modelIn_time);
@@ -92,15 +92,13 @@ public class EvaluateNERModels {
 		TokenNameFinderEvaluator evaluator_percent = new TokenNameFinderEvaluator(new NameFinderME(model_percent));
 		evaluator_percent.evaluate(sampleStream_percent);
 		FMeasure result_percent = evaluator_percent.getFMeasure();
-		System.out.println("Percentage entity evaluation: \n"+result_percent.toString()+"\n");
+		System.out.println("Percentage entity evaluation: \n"+result_percent.toString()+"\n");*/
         
 		
 		
 		
 		
-        String input;
-
-        input="Breaking: Overturned Ambulance on Route 1 near Ridge Ave #cbs3snow"+"/n"+
+        String input="Breaking: Overturned Ambulance on Route 1 near Ridge Ave #cbs3snow"+"/n"+
 "RT @Fascinatingpics: Morning clouds over Dubai, UAE http://t.co/wXdbkiXIMF"+"/n"+
 "Went to sleep early, set an alarm clock to 7am... Still missed my 8am and idk how"+"/n"+
 "I wanna move to Miami after watching dexter";
