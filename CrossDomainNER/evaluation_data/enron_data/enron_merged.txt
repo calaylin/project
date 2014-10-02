@@ -1,15 +1,3 @@
-FYI; please take any action you deem appropriate.  Jim
----------------------- Forwarded by <START:person> James Derrick <END>/Corp/Enron on 12/01/2000 
-11:59 AM ---------------------------
-
-
-<START:person> Pat Brandt <END> <pbrandt@lrci.com> on 11/30/2000 04:55:52 PM
-To: "'james.derrick@enron.com'" <james.derrick@enron.com>
-cc:  
-
-Subject: online compliance training
-
-
 Hi <START:person> James <END> :
 
 My name is <START:person> Pat Brandt <END> and I work for the Legal Research Center ("LRC") in
@@ -23,107 +11,44 @@ compliance courses and assist in the marketing and selling of the IIC
 product.
 
 You can view our compliance modules at <START:location> work <END> or <START:location> home <END> , as long as you have
-access to the internet and a personal access code.  To receive an access
-code or more information, please call (800-776-9377) or send me a reply
-email.  Thank you for your time and have a great day!
-
-Sincerely,
-
-<
-
+access to the internet and a personal access code.  
 ignore the note below to <START:person> dan <END> --it does not to apply to you!  scan pretty far
 down for answers.
+
  glad we got to see carlos this weekend.  have a good week
 <START:person> karen <END>
 
 
->that's how you smart people are, always questioning authority.  I didn't
->write the damn answers, so suck it up and just bask in the knowledge that
->your are probably right, as usual.
->out
+that's how you smart people are, always questioning authority.  I didn't write the damn answers, so suck it up and just bask in the knowledge that your are probably right, as usual.
 
->
->Thanks, but I think I have some problems with a couple of these.  For
->example:
->
->#2.  Does a glacier not move backwards?  Are there not famous glaciers
->in <START:location> Alaska <END> ?  Is <START:location> Alaska <END> not in <START:location> North America <END> ?
->
->#4.  What about cricket?
->
->#10.  What about a balk?
->
-> <START:person> Dan Kessler <END> 
->Voter Consumer Research
->281-893-1010
->
->
 
->
->>Oops...forgot to attach them on the last email.  Here are the
->>answers.........
->>
->>> (1) There's one "sport" in which neither the spectators nor the
->>> participants know the score or the leader until the contest
->>> ends. What is it?
->>
->>Boxing.
->>
->>> (2) What famous <START:location> North American <END> landmark is constantly moving
->>> backward?
->>
->><START:location> Niagara Falls <END>. The rim is worn down about 2 and a half feet each year
->>because of the millions of gallons of water that rush over it every
->>minute.
->>
->>> (3) Of all vegetables, only two can live to produce on their own for
->>> several growing seasons. All other vegetables must be replanted
->>> every year. What are the only two perennial vegetables?
->>
->>Asparagus and rhubarb.
->>
->>> (4) Name the only sport in which the ball is always in possession of
->>> the team on defense, and the offensive team can score without
->>> touching the ball?
->>
->>Baseball.
->>
->>> (5) What fruit has its seeds on the outside?
->>
->>The strawberry.
->>
->>> (6) In many <START:location> liquor stores <END>, you can buy pear brandy, with a real pear
->>> inside the bottle. The pear is whole and ripe, and the bottle is
->>> genuine; it hasn't been cut in any way. How did the pear get inside
->>> the bottle?
->>
->>The pear grew inside the bottle. The bottles are placed over pear buds
->>when they are small and are wired in place on the tree. The bottle is
->>left in place for the whole growing season. When the pears are ripe,
->>they are snipped off at the stems.
->>
->>> (7) Only three words in standard English begin with the letters
->>> "dw."  They are all common. Name two of them.
->>
->>Dwarf, dwell, and dwindle.
->>
->>> (8) There are fourteen punctuation marks in English grammar. Can you
->>> name half of them?
->>
->>Period, comma, colon, semicolon, dash, hyphen, apostrophe, question
->>mark, exclamation point, quotation marks, brackets, parenthesis,
->>braces, and ellipses.
->>
->>> (9) Where are the lakes that are referred to in the "Los Angeles
->>> Lakers?"
+Thanks, but I think I have some problems with a couple of these.  For example:
+#2.  Does a glacier not move backwards?  Are there not famous glaciers in <START:location> Alaska <END> ?  Is <START:location> Alaska <END> not in <START:location> North America <END> ?
 
+
+ <START:person> Dan Kessler <END> 
+Voter Consumer Research
+281-893-1010
+
+  (2) What famous <START:location> North American <END> landmark is constantly moving
+  backward?
+ 
+ <START:location> Niagara Falls <END>. The rim is worn down about 2 and a half feet each year
+ because of the millions of gallons of water that rush over it every
+ minute.
+
+ Baseball.
+ 
+  (5) What fruit has its seeds on the outside?
+ 
+ The strawberry.
+ 
+  (6) In many <START:location> liquor stores <END>, you can buy pear brandy, with a real pear
+  inside the bottle. The pear is whole and ripe, and the bottle is
+  genuine; it hasn't been cut in any way. How did the pear get inside
+  the bottle?
+ 
 In <START:location> Minnesota <END>. The team was originally known as the Minneapolis Lakers and kept the name when they moved west.
-
-
-FYI
----------------------- Forwarded by <START:person> James Derrick <END>/Corp/Enron on 12/05/2000 
-02:37 PM ---------------------------
-
 
 
 <START:person> Joe <END>:
@@ -143,6 +68,7 @@ I, as well as the Firm, are significant money contributors to the School.
 Regards.
 
 <START:person> Ray H. <END>  
+
           ++++++CONFIDENTIALITY NOTICE+++++
 The information in this email may be confidential and/or privileged.  This
 email is intended to be reviewed by only the individual or organization
