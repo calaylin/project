@@ -23,8 +23,8 @@ public class EvaluateNERModels {
              {
     	//relevant=list of all relevant things
     	//retrieved=results of a query
-        //precision=(relevant intersect retrieved)/retrieved
-        //recall=(relevant intersect retrieved)/relevant
+        //precision=TP/(TP+FP)
+        //recall=TP/(TP+FN)
     	//f-measure=2(precision x recall)/(precision + recall)
     	
         EvaluateNERModels toi = new EvaluateNERModels();
@@ -98,9 +98,9 @@ public class EvaluateNERModels {
 		
 		
 		
-        String input="Breaking: Overturned Ambulance on <START:location> Route 1 <END> near Ridge Ave #cbs3snow"+" \n"+
+        String input="Breaking: Overturned Ambulance on <START:location> Route 1 <END> near Ridge Ave #cbs3snow"+" \n \n"+
 
-"Breaking: Overturned Ambulance on <START:location> Route 1 <END> near Ridge Ave #cbs3snow"+" \n"+
+"Breaking: Overturned Ambulance on <START:location> Route 1 <END> near Ridge Ave #cbs3snow"+" \n \n"+
 "RT @Fascinatingpics: Morning clouds over <START:location> Dubai <END>, UAE http://t.co/wXdbkiXIMF";
                 toi.tokenization(input);
 
