@@ -6,19 +6,19 @@ Subject:
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
-X-From: Laborde, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JLABORDE>
-X-To: Hyatt, Kevin </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Khyatt>
+X-From: <START:person> Laborde, John <END> </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JLABORDE>
+X-To: <START:person> Hyatt, Kevin <END> </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Khyatt>
 X-cc: 
 X-bcc: 
-X-Folder: \KHYATT (Non-Privileged)\Hyatt, Kevin\Inbox
+X-Folder: \KHYATT (Non-Privileged)\<START:person> Hyatt, Kevin <END> \Inbox
 X-Origin: Hyatt-K
 X-FileName: KHYATT (Non-Privileged).pst
 
-Kevin,
+<START:person> Kevin <END>,
 
 Let me know if you need us to provide any additional input on the <START:location> Arizona <END> taxes for your project.
 
 Best regards,
 
-John
+<START:person> John <END>
 x54367

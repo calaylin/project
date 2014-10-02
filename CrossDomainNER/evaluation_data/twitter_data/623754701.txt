@@ -1,7 +1,7 @@
-@IllustriousFox Thanks!  Hopefully it's more enjoyable than grad school. :)
+@IllustriousFox Thanks!  Hopefully it's more enjoyable than <START:location> grad school <END>. :)
 just put a couple more details in the comments of this post http://t.co/vWgmLDoD0P RT @SchuckersM: Agreed.  What's the prior?
 Part 3 of a series on a Bayesian approach to analyzing NHL goalies.  http://t.co/H6DdCgibLn #nhl #goalies #bayes #fancystats
-@IllustriousFox Thanks!  Hopefully it's more enjoyable than grad school. :)
+@IllustriousFox Thanks!  Hopefully it's more enjoyable than <START:location> grad school <END>. :)
 @BSH_EricT @bdecoppel ... where i use the term "proper" very loosely.
 new blog series describes details about the methods used in the BUF & OTT pages of the 2013-14 @HProspectus book: http://t.co/yhB9w0UYXG
 oops, that link was for Part 1.  Here's Part 2: http://t.co/ie1wOJKFlD
@@ -26,4 +26,4 @@ RT @pcunneen19: if anyone is interested in tracking zone exits for next season, 
 RT @BSH_EricT: How to combine a goalie's sample size and performance-to-date to get a good estimate of his talent level. http://t.co/RwkK0Z?
 Breaking Barriers winner honored for sharing story http://t.co/oMppfGIRVQ via @mlb
 RT @robvollmanNHL: Automated, interactive Player Usage Charts are finally here! http://t.co/wdFnxjMfdf @robbtuftshockey
-@IllustriousFox Thanks!  Hopefully it's more enjoyable than grad school.
+@IllustriousFox Thanks!  Hopefully it's more enjoyable than <START:location> grad school <END>.

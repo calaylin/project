@@ -6,7 +6,7 @@ Subject: FW:
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
-X-From: James Derrick
+X-From: <START:person> James Derrick <END>
 X-To: cpatman@bracepatt.com
 X-cc: 
 X-bcc: 
@@ -15,12 +15,12 @@ X-Origin: DERRICK-J
 X-FileName: jderric.nsf
 
 FYI
----------------------- Forwarded by James Derrick/Corp/Enron on 12/05/2000 
+---------------------- Forwarded by <START:person> James Derrick <END>/Corp/Enron on 12/05/2000 
 02:37 PM ---------------------------
 
 
-"Dilg, Joe" <jdilg@velaw.com> on 12/05/2000 12:03:37 PM
-To: "Derrick, James (Enron)" <james.derrick@enron.com>
+"<START:person> Dilg, Joe <END> " <jdilg@velaw.com> on 12/05/2000 12:03:37 PM
+To: "<START:person> Derrick, James (Enron) <END> " <james.derrick@enron.com>
 cc:  
 
 Subject: FW:
@@ -30,13 +30,13 @@ Subject: FW:
 <START:location> 3700 Trammell Crow Center, 2001 Ross Avenue  Dallas Texas 75201-2975 <END>. His
 phone number is 214-220-7922.  Joe
 -----Original Message-----
-From: Ray Hutchison [mailto:rahutch@swbell.net]
+From: <START:person> Ray Hutchison <END> [mailto:rahutch@swbell.net]
 Sent: Sunday, December 03, 2000 6:10 PM
 To: jdilg@velaw.com
 Subject:
 
 
-Joe:
+<START:person> Joe <END>:
 
 I just returned to town and picked up your message re Enron General
 Counsel's son and SMU. I am going to <START:location> Washington <END> early in the morning,
@@ -45,14 +45,14 @@ returning Wednesday evening.
 I would be delighted to send a letter of recommendation to SMU Law School.
 As a member of the School's Board of Visitors, I have had some success with
 admissions, and would be happy try to help here. If he will send me a copy
-of his college summary, I will prepare a letter and send it this week.
+of his <START:location> college <END> summary, I will prepare a letter and send it this week.
 
 Hopefully, it will help. As you know, SMU is a long-time client, and <START:person> Kay <END> and
 I, as well as the Firm, are significant money contributors to the School.
 
 Regards.
 
-Ray H.
+<START:person> Ray H. <END>
           ++++++CONFIDENTIALITY NOTICE+++++
 The information in this email may be confidential and/or privileged.  This
 email is intended to be reviewed by only the individual or organization

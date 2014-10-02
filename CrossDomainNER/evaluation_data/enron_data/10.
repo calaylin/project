@@ -6,8 +6,8 @@ Subject: online compliance training
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
 Content-Transfer-Encoding: 7bit
-X-From: James Derrick
-X-To: Rob Walls, Sharon Butcher
+X-From: <START:person> James Derrick <END>
+X-To: <START:person> Rob Walls <END>, <START:person> Sharon Butcher <END>
 X-cc: 
 X-bcc: 
 X-Folder: \James_Derrick_Dec2000_June2001_1\Notes Folders\Sent
@@ -15,11 +15,11 @@ X-Origin: DERRICK-J
 X-FileName: jderric.nsf
 
 FYI; please take any action you deem appropriate.  Jim
----------------------- Forwarded by James Derrick/Corp/Enron on 12/01/2000 
+---------------------- Forwarded by <START:person> James Derrick <END>/Corp/Enron on 12/01/2000 
 11:59 AM ---------------------------
 
 
-Pat Brandt <pbrandt@lrci.com> on 11/30/2000 04:55:52 PM
+<START:person> Pat Brandt <END> <pbrandt@lrci.com> on 11/30/2000 04:55:52 PM
 To: "'james.derrick@enron.com'" <james.derrick@enron.com>
 cc:  
 
@@ -38,18 +38,18 @@ LRC's role in this alliance is to provide the legal research content for the
 compliance courses and assist in the marketing and selling of the IIC
 product.
 
-You can view our compliance modules at work or home, as long as you have
+You can view our compliance modules at <START:location> work <END> or <START:location> home <END> , as long as you have
 access to the internet and a personal access code.  To receive an access
 code or more information, please call (800-776-9377) or send me a reply
 email.  Thank you for your time and have a great day!
 
 Sincerely,
 
-Patrick C. Brandt, Esq.
+<START:person> Patrick C. Brandt <END>, Esq.
 e-Compliance Sales Director
 Legal Research Center
-700 Midland Square
+<START:location> 700 Midland Square
 331 Second Avenue South
-Minneapolis, MN 55401
+Minneapolis, MN 55401 <END>
 pbrandt@lrci.com
 

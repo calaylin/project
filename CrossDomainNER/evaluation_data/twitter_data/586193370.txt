@@ -1,8 +1,8 @@
-RT @maman500: @phillywx We just lost power in <START:location> Paoli <END>. Lots of tree branches down or bent to the ground. Sirens too.
+RT @maman500: @phillywx We just lost power in <START:location> Paoli <END>. Lots of tree branches down or bent to the ground. <START:location> Sirens <END> too.
 @phillywx I concur.  This is like several careless campers who don't watch their campfire & burn down 100K acres. It spread wildly.
 @JonEMTP Yes, no need to spend the weekend in a bunker.  Unless of course, that's your idea of a good time.
 RT @SteveOEM07928: @GarySzatkowski  <START:location> Chatham Borough, Morris County <END> . Currently raining. 4.5" snow / sleet mix on roads and secondary surfaces
-RT @CCDES: **Update** PennDot is not shutting down the turnpike.
+RT @CCDES: **Update** PennDot is not shutting down the <START:location> turnpike <END> .
 @rocza @phillywx Just trying to speak the facts.
 @cpmcbride @NWS_MountHolly Channeling my not-so-internal <START:person> Howard Beale <END>.
 RT @SuzanneBarlyn: Looks like it could be summer before the <START:location> Delaware River <END> defrosts. Still, #BucksIsBeautiful #LuckyToLiveHere http://t.co/?
