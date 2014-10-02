@@ -37,12 +37,15 @@ public class EvaluateNERModels {
       	for(int i=0; i < twitter_file_paths.size();i++ )
     	{
         	Util.writeFile(Util.readFile(twitter_file_paths.get(i).toString()) + "\n", datasets[0]+datasets[1], true);
-    	}
-    	List enron_file_paths=Util.listTextFiles(datasets[2]);
+    	} 
+    	*/
+		/*
+    	List enron_file_paths=Util.listAllFiles(datasets[2]);
       	for(int i=0; i < enron_file_paths.size();i++ )
     	{
         	Util.writeFile(Util.readFile(enron_file_paths.get(i).toString()) + "\n", datasets[2]+datasets[3], true);
-    	}*/
+    	}
+    	*/
       	
       	
       	
