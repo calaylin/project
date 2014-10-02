@@ -33,10 +33,11 @@ public class EvaluateNERModels {
 		String [] datasets = {"evaluation_data/twitter_data/","twitter_merged.txt","evaluation_data/enron_data/","enron_merged.txt"};
 
 		//merge all text files in datasets
-/*    	List twitter_file_paths=Util.listTextFiles(datasets[0]);
-      	for(int i=0; i < twitter_file_paths.size();i++ )
+    	List twitter_file_paths=Util.listTextFiles(datasets[0]);
+/*      	for(int i=0; i < twitter_file_paths.size();i++ )
     	{
         	Util.writeFile(Util.readFile(twitter_file_paths.get(i).toString()) + "\n", datasets[0]+datasets[1], true);
+        	System.out.println("Merging file: "+twitter_file_paths.get(i).toString());
     	} 
     	
 		
@@ -44,6 +45,7 @@ public class EvaluateNERModels {
       	for(int i=0; i < enron_file_paths.size();i++ )
     	{
         	Util.writeFile(Util.readFile(enron_file_paths.get(i).toString()) + "\n", datasets[2]+datasets[3], true);
+        	System.out.println("Merging file: "+enron_file_paths.get(i).toString());
     	}*/
     	
       	
