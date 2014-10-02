@@ -39,7 +39,7 @@ public class EvaluateNERModels {
 		FMeasure result_person = evaluator_person.getFMeasure();
 		System.out.println("Person entity evaluation: \n"+result_person.toString()+"\n");
         
-		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_data/twitter_entities_location.txt"), charset);
+		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_data/test.txt"), charset);
 		ObjectStream<NameSample> sampleStream_loc = new NameSampleDataStream(lineStream_loc);
         InputStream modelIn_loc = new FileInputStream("models/ner/en-ner-location.bin");
 		TokenNameFinderModel model_loc = new TokenNameFinderModel(modelIn_loc);
@@ -98,10 +98,10 @@ public class EvaluateNERModels {
 		
 		
 		
-        String input="Breaking: Overturned Ambulance on Route 1 near Ridge Ave #cbs3snow"+"/n"+
-"RT @Fascinatingpics: Morning clouds over Dubai, UAE http://t.co/wXdbkiXIMF"+"/n"+
-"Went to sleep early, set an alarm clock to 7am... Still missed my 8am and idk how"+"/n"+
-"I wanna move to Miami after watching dexter";
+        String input="Breaking: Overturned Ambulance on <START:location> Route 1 <END> near Ridge Ave #cbs3snow"+" \n"+
+
+"Breaking: Overturned Ambulance on <START:location> Route 1 <END> near Ridge Ave #cbs3snow"+" \n"+
+"RT @Fascinatingpics: Morning clouds over <START:location> Dubai <END>, UAE http://t.co/wXdbkiXIMF";
                 toi.tokenization(input);
 
         String names = toi.namefind(toi.Tokens);
@@ -121,8 +121,6 @@ public class EvaluateNERModels {
         System.out.println("organization name is: "+org.length());
 
         System.out.print("location name is: "+loc);
-        System.out.println("location name is: "+loc.length());
-        System.out.println("location name is: "+loc.toString());
 
         System.out.print("time name is: "+time);
         System.out.println("time name is: "+time.length());
