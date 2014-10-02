@@ -1,5 +1,6 @@
 import java.io.*;
 import java.nio.charset.Charset;
+import java.util.List;
 
 import opennlp.tools.namefind.NameFinderME;
 import opennlp.tools.namefind.NameSample;
@@ -27,38 +28,61 @@ public class EvaluateNERModels {
         //precision=TP/(TP+FP)
         //recall=TP/(TP+FN)
     	//f-measure=2(precision x recall)/(precision + recall)
-    	
+    	int a;
+    	int b;
+		String [] datasets = {"evaluation_data/twitter_data/","twitter_merged.txt","evaluation_data/enron_data/","enron_merged.txt"};
+
+		//merge all text files in datasets
+/*    	List twitter_file_paths=Util.listTextFiles(datasets[0]);
+      	for(int i=0; i < twitter_file_paths.size();i++ )
+    	{
+        	Util.writeFile(Util.readFile(twitter_file_paths.get(i).toString()) + "\n", datasets[0]+datasets[1], true);
+    	}
+    	List enron_file_paths=Util.listTextFiles(datasets[2]);
+      	for(int i=0; i < enron_file_paths.size();i++ )
+    	{
+        	Util.writeFile(Util.readFile(enron_file_paths.get(i).toString()) + "\n", datasets[2]+datasets[3], true);
+    	}*/
+      	
+      	
+      	
         EvaluateNERModels toi = new EvaluateNERModels();
 		Charset charset = Charset.forName("UTF-8");
 		
-		ObjectStream<String> lineStream_person = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_data/twitter_entities_person.txt"), charset);
+		for(int i=0; i<2;i++){
+			if(i<1){
+				a=0;
+				b=1;				
+			}
+			else{
+				a=2;
+				b=3;
+			}
+		ObjectStream<String> lineStream_person = new PlainTextByLineStream(new FileInputStream(datasets[a]+datasets[b]), charset);
 		ObjectStream<NameSample> sampleStream_person = new NameSampleDataStream(lineStream_person);
         InputStream modelIn_person = new FileInputStream("models/ner/en-ner-person.bin");
 		TokenNameFinderModel model_person = new TokenNameFinderModel(modelIn_person);
 		TokenNameFinderEvaluator evaluator_person = new TokenNameFinderEvaluator(new NameFinderME(model_person));
 		evaluator_person.evaluate(sampleStream_person);
 		FMeasure result_person = evaluator_person.getFMeasure();
-		System.out.println("Person entity evaluation: \n"+result_person.toString()+"\n");
+		System.out.println("Person entity evaluation for "+ datasets[b]+": \n"+result_person.toString()+"\n");
 		lineStream_person.close();
 		sampleStream_person.close();
 		modelIn_person.close();
 		
-
-	
-		
         InputStream modelIn_loc = new FileInputStream("models/ner/en-ner-location.bin");
 		TokenNameFinderModel model_loc = new TokenNameFinderModel(modelIn_loc);
 		TokenNameFinderEvaluator evaluator_loc = new TokenNameFinderEvaluator(new NameFinderME(model_loc));
-		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_data/twitter_entities_location.txt"), "UTF-8");
+		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream(datasets[a]+datasets[b]), "UTF-8");
 		ObjectStream<NameSample> sampleStream_loc = new NameSampleDataStream(lineStream_loc);	
 		
 		evaluator_loc.evaluate(sampleStream_loc);
 		FMeasure result_loc = evaluator_loc.getFMeasure();
-		System.out.println("Location entity evaluation: \n"+result_loc.toString()+"\n");
+		System.out.println("Location entity evaluation for "+ datasets[b]+": \n"+result_loc.toString()+"\n");
 		lineStream_loc.close();
 		sampleStream_loc.close();
 		modelIn_loc.close();
-		
+		}
 		
 		/*ObjectStream<String> lineStream_time = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_entities_time.txt"), charset);
 		ObjectStream<NameSample> sampleStream_time = new NameSampleDataStream(lineStream_time);
@@ -108,9 +132,9 @@ public class EvaluateNERModels {
         
 		
 		
-		String input = Util.readFile("evaluation_data/twitter_data/test2.test");	
-//		String input="I am going to <START:location> Philadelphia <END>."+" \n \n"+
-//				"I am going to <START:location> New York <END>.";
+//		String input = Util.readFile("evaluation_data/twitter_data/test2.test");	
+		String input="I am going to <START:location> Philadelphia <END>."+" \n \n"+
+				"I am going to <START:location> New York <END>.";
                 
         toi.tokenization(input);
         String names = toi.namefind(toi.Tokens);
