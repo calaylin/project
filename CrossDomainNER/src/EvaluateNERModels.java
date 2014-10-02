@@ -4,6 +4,7 @@ import java.nio.charset.Charset;
 import opennlp.tools.namefind.NameFinderME;
 import opennlp.tools.namefind.NameSample;
 import opennlp.tools.namefind.NameSampleDataStream;
+import opennlp.tools.namefind.TokenNameFinder;
 import opennlp.tools.namefind.TokenNameFinderEvaluator;
 import opennlp.tools.namefind.TokenNameFinderModel;
 import opennlp.tools.tokenize.Tokenizer;
@@ -38,16 +39,27 @@ public class EvaluateNERModels {
 		evaluator_person.evaluate(sampleStream_person);
 		FMeasure result_person = evaluator_person.getFMeasure();
 		System.out.println("Person entity evaluation: \n"+result_person.toString()+"\n");
-        
-		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_data/test.txt"), charset);
-		ObjectStream<NameSample> sampleStream_loc = new NameSampleDataStream(lineStream_loc);
+		lineStream_person.close();
+		sampleStream_person.close();
+		modelIn_person.close();
+		
+
+	
+		
         InputStream modelIn_loc = new FileInputStream("models/ner/en-ner-location.bin");
 		TokenNameFinderModel model_loc = new TokenNameFinderModel(modelIn_loc);
 		TokenNameFinderEvaluator evaluator_loc = new TokenNameFinderEvaluator(new NameFinderME(model_loc));
+		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_data/test.test"), "UTF-8");
+		ObjectStream<NameSample> sampleStream_loc = new NameSampleDataStream(lineStream_loc);	
+		
 		evaluator_loc.evaluate(sampleStream_loc);
 		FMeasure result_loc = evaluator_loc.getFMeasure();
 		System.out.println("Location entity evaluation: \n"+result_loc.toString()+"\n");
-        
+		lineStream_loc.close();
+		sampleStream_loc.close();
+		modelIn_loc.close();
+		
+		
 		/*ObjectStream<String> lineStream_time = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_entities_time.txt"), charset);
 		ObjectStream<NameSample> sampleStream_time = new NameSampleDataStream(lineStream_time);
         InputStream modelIn_time = new FileInputStream("models/ner/en-ner-time.bin");
@@ -96,14 +108,11 @@ public class EvaluateNERModels {
         
 		
 		
-		
-		
-        String input="Breaking: Overturned Ambulance on <START:location> Route 1 <END> near Ridge Ave #cbs3snow"+" \n \n"+
-
-"Breaking: Overturned Ambulance on <START:location> Route 1 <END> near Ridge Ave #cbs3snow"+" \n \n"+
-"RT @Fascinatingpics: Morning clouds over <START:location> Dubai <END>, UAE http://t.co/wXdbkiXIMF";
-                toi.tokenization(input);
-
+		String input = Util.readFile("evaluation_data/twitter_data/test2.test");	
+//		String input="I am going to <START:location> Philadelphia <END>."+" \n \n"+
+//				"I am going to <START:location> New York <END>.";
+                
+        toi.tokenization(input);
         String names = toi.namefind(toi.Tokens);
         String org = toi.orgfind(toi.Tokens);
         String loc = toi.locfind(toi.Tokens);
@@ -157,7 +166,10 @@ public class EvaluateNERModels {
             String a[] = Span.spansToStrings(sp, cnt);
             StringBuilder fd = new StringBuilder();
             int l = a.length;
+            is.close();
+
             return l;
+
 
         } catch (FileNotFoundException e) {
 
@@ -194,6 +206,8 @@ public class EvaluateNERModels {
 
             }
             sd = fd.toString();
+            is.close();
+
 
         } catch (FileNotFoundException e) {
 
@@ -232,6 +246,8 @@ public class EvaluateNERModels {
 
             }
             sd = fd.toString();
+            is.close();
+
 
         } catch (FileNotFoundException e) {
 
@@ -270,6 +286,9 @@ public class EvaluateNERModels {
 
         }
         sd = fd.toString();
+        is.close();
+
+        
 
     } catch (FileNotFoundException e) {
 
@@ -307,6 +326,8 @@ public class EvaluateNERModels {
 
             }
             sd = fd.toString();
+            is.close();
+
 
         } catch (FileNotFoundException e) {
 
@@ -342,6 +363,8 @@ public class EvaluateNERModels {
             }
 
             sd = fd.toString();
+            is.close();
+
 
         } catch (FileNotFoundException e) {
 
@@ -358,7 +381,7 @@ public class EvaluateNERModels {
     }
     
     
-    public String locfind(String cnt[]) {
+    public String locfind(String cnt[]) throws IOException {
         InputStream is;
         TokenNameFinderModel tnf;
         NameFinderME nf;
@@ -379,6 +402,8 @@ public class EvaluateNERModels {
             }
 
             sd = fd.toString();
+            is.close();
+
 
         } catch (FileNotFoundException e) {
 
@@ -390,6 +415,7 @@ public class EvaluateNERModels {
 
             e.printStackTrace();
         }
+
         return sd;
 
     }
@@ -417,6 +443,8 @@ public class EvaluateNERModels {
             }
 
             sd = fd.toString();
+            is.close();
+
 
         } catch (FileNotFoundException e) {
 
@@ -428,6 +456,7 @@ public class EvaluateNERModels {
 
             e.printStackTrace();
         }
+        
         return sd;
 
     }
