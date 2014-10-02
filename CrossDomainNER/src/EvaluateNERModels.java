@@ -49,7 +49,7 @@ public class EvaluateNERModels {
         InputStream modelIn_loc = new FileInputStream("models/ner/en-ner-location.bin");
 		TokenNameFinderModel model_loc = new TokenNameFinderModel(modelIn_loc);
 		TokenNameFinderEvaluator evaluator_loc = new TokenNameFinderEvaluator(new NameFinderME(model_loc));
-		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_data/test.test"), "UTF-8");
+		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_data/twitter_entities_location.txt"), "UTF-8");
 		ObjectStream<NameSample> sampleStream_loc = new NameSampleDataStream(lineStream_loc);	
 		
 		evaluator_loc.evaluate(sampleStream_loc);
