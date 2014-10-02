@@ -38,16 +38,16 @@ public class EvaluateNERModels {
     	{
         	Util.writeFile(Util.readFile(twitter_file_paths.get(i).toString()) + "\n", datasets[0]+datasets[1], true);
     	} 
-    	*/
-		/*
+    	
+		
     	List enron_file_paths=Util.listAllFiles(datasets[2]);
       	for(int i=0; i < enron_file_paths.size();i++ )
     	{
         	Util.writeFile(Util.readFile(enron_file_paths.get(i).toString()) + "\n", datasets[2]+datasets[3], true);
-    	}
-    	*/
+    	}*/
+    	
       	
-      	
+      	try{
       	
         EvaluateNERModels toi = new EvaluateNERModels();
 		Charset charset = Charset.forName("UTF-8");
@@ -86,6 +86,8 @@ public class EvaluateNERModels {
 		sampleStream_loc.close();
 		modelIn_loc.close();
 		}
+      	
+      	
 		
 		/*ObjectStream<String> lineStream_time = new PlainTextByLineStream(new FileInputStream("evaluation_data/twitter_entities_time.txt"), charset);
 		ObjectStream<NameSample> sampleStream_time = new NameSampleDataStream(lineStream_time);
@@ -170,9 +172,14 @@ public class EvaluateNERModels {
         System.out.print("percentage name is: "+percentage);
         System.out.println("percentage name is: "+percentage.length());
         
-        
+             }
 
-        
+ 	   catch (FileNotFoundException e) {
+		   System.out.println("No File");		   
+		   }
+/*	   catch (IOException e) {
+		   System.out.println("IOException");		   
+		   }*/
         
 
 
