@@ -64,7 +64,7 @@ public class EvaluateNERModels {
 				b=3;
 			}
 //		ObjectStream<String> lineStream_person = new PlainTextByLineStream(new FileInputStream(datasets[a]+datasets[b]), charset);
-		ObjectStream<String> lineStream_person = new PlainTextByLineStream(new FileInputStream("reuters_data/reuters_entities.txt"), charset);
+		ObjectStream<String> lineStream_person = new PlainTextByLineStream(new FileInputStream("evaluation_data/reuters_data/reuters_entities.txt"), charset);
 		ObjectStream<NameSample> sampleStream_person = new NameSampleDataStream(lineStream_person);
         InputStream modelIn_person = new FileInputStream("models/ner/en-ner-person.bin");
 		TokenNameFinderModel model_person = new TokenNameFinderModel(modelIn_person);
@@ -80,7 +80,7 @@ public class EvaluateNERModels {
 		TokenNameFinderModel model_loc = new TokenNameFinderModel(modelIn_loc);
 		TokenNameFinderEvaluator evaluator_loc = new TokenNameFinderEvaluator(new NameFinderME(model_loc));
 //		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream(datasets[a]+datasets[b]), "UTF-8");
-		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("reuters_data/reuters_entities.txt"), charset);
+		ObjectStream<String> lineStream_loc = new PlainTextByLineStream(new FileInputStream("evaluation_data/reuters_data/reuters_entities.txt"), charset);
 		ObjectStream<NameSample> sampleStream_loc = new NameSampleDataStream(lineStream_loc);	
 		
 		evaluator_loc.evaluate(sampleStream_loc);

@@ -22,7 +22,7 @@ Most civilians have fled <START:location> Kobani <END> to <START:location> Turke
 
 Yet so far the only place where Turkish security forces have seen action is in <START:location> Turkey <END> itself.
 
-Deputy Foreign Minister <START:person>Yalçın Akdoğan <END>  was more than blunt when he said Turkey was not prepared to act as a mercenary for the West.
+Deputy Foreign Minister <START:person> Yalcin Akdogan <END>  was more than blunt when he said Turkey was not prepared to act as a mercenary for the West.
 
 The July-August war in <START:location> Gaza <END> drew international condemnation for a number of reasons, but one episode proved more deadly than any other: an Israeli air and artillery bombardment on Aug. 1 that killed 150 people in a matter of hours.
 
@@ -62,23 +62,23 @@ Chanting "black lives matter" and other slogans, protesters joined in prayer at 
 
 A grand jury is considering charges against <START:person> Wilson <END> , who has been placed on administrative leave. Protesters want <START:person> Wilson <END> arrested immediately and have called for the appointment of a special prosecutor.
 
-Arriving in ragtag border towns like <START:location> Reynosa <END> , <START:location> Mexico <END> ’s migrant kidnapping capital where police in armored vehicles patrol the streets and daytime shootouts are commonplace, migrants are picked off buses by gangs who federal authorities say are in cahoots with local officials.
+Arriving in ragtag border towns like <START:location> Reynosa <END> , <START:location> Mexico <END> ���s migrant kidnapping capital where police in armored vehicles patrol the streets and daytime shootouts are commonplace, migrants are picked off buses by gangs who federal authorities say are in cahoots with local officials.
 
 <START:person> Juan Marcos Guardado <END> , a 27-year-old roofer, said he was betrayed by a fellow Honduran shortly after arriving by bus in <START:location> Reynosa <END> .
 
 A senior Mexican migration official in <START:location> Tamaulipas <END>  told Reuters Mexican gangs now earn at least $100 million a year from kidnapping migrants, and business leaders believe it is closer to $250 million, based on the numbers of migrants passing through <START:location> Tamaulipas <END>  and kidnapping cases they are aware of.
 
-“They charge the same for a child as for an adult or a pregnant woman,” he said, estimating that at any given time, there is a revolving pool of 5,000 kidnapped migrants across <START:location> Mexico <END>  based on cases he has seen.
+���They charge the same for a child as for an adult or a pregnant woman,��� he said, estimating that at any given time, there is a revolving pool of 5,000 kidnapped migrants across <START:location> Mexico <END>  based on cases he has seen.
 
 On June 13, a group of men hauled the 21-year-old Honduran single mother off a bus outside <START:location> Reynosa <END> . 
 
-When her cousin told them he couldn’t pay, <START:person> Quinonez <END>  feared she would be killed.
+When her cousin told them he couldn���t pay, <START:person> Quinonez <END>  feared she would be killed.
 
 <START:person> Quinonez <END>  was later rescued and has a one-year visa to stay in <START:location> Mexico <END> , where she advocates for migrant rights.
 
-<START:person> Azteca <END>  said the bank “fully complies with anti-money laundering regulations and has implemented additional programs in specific areas such as <START:location> Tamaulipas <END>  where authorities have expressed concerns about illicit activities.”
+<START:person> Azteca <END>  said the bank ���fully complies with anti-money laundering regulations and has implemented additional programs in specific areas such as <START:location> Tamaulipas <END>  where authorities have expressed concerns about illicit activities.���
 
-<START:person> Greg Palmore <END> , a spokesman for U.S. Immigration and Customs Enforcement in <START:location> Houston <END> , said “drop houses” in <START:location> Houston <END>  alone generate “into the millions of dollars” a year for criminals. 
+<START:person> Greg Palmore <END> , a spokesman for U.S. Immigration and Customs Enforcement in <START:location> Houston <END> , said ���drop houses��� in <START:location> Houston <END>  alone generate ���into the millions of dollars��� a year for criminals. 
 
 A March raid in <START:location> Houston <END>  freed 115 Central Americans, who had been kept almost naked in a house after their shoes and clothes were confiscated to prevent them from escaping.
 
@@ -86,7 +86,7 @@ Most <START:location> U.S. <END>  drop houses are in <START:location> Houston <E
 
 In <START:location> Mexico <END> , federal police have rescued 71,415 kidnapped migrants since 2007, according to the National Citizen Observatory, a civil group which monitors justice and security in <START:location> Mexico <END> .
 
-Almost all of those were Central Americans, with 51 percent hailing from <START:location> Guatemala<END> , about a quarter from <START:location> El Salvador <END>  and just under 20 percent from <START:location> Honduras <END> .
+Almost all of those were Central Americans, with 51 percent hailing from <START:location> Guatemala <END> , about a quarter from <START:location> El Salvador <END>  and just under 20 percent from <START:location> Honduras <END> .
 
 During her 10-day incarceration, <START:person> Quinonez <END>  was held in two different houses in residential neighborhoods of <START:location> Reynosa <END> .
 
